@@ -2333,7 +2333,7 @@
 		button.style.display = "none";
 		document.getElementById("sources").appendChild(button);
 		
-		
+		<!--
 		var button = document.createElement("button");
 		button.innerHTML = "Invite Settings"; 
 		button.classList.add("menuButton");
@@ -2350,9 +2350,9 @@
 		a.target = "_blank";
 		a.onclick = function(evt){copyFunction(this, evt);};
 		document.getElementById("sources").appendChild(a);
-		
+		-->
 		var a = document.createElement("a");
-		<!-- a.innerHTML = "Scene View Link 📎"; -->
+		 a.innerHTML = "Scene View Link 📎";
 		a.href = "./?scene=0&layout&remote&room="+roomname+additional;
 		a.target = "_blank";
 		a.onclick = function(evt){copyFunction(this, evt);};
