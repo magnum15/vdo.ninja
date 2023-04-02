@@ -28,6 +28,11 @@
 	--color-mode: light;
 	--video-background-image-size: auto 30%;
 }
+/* ===Hide elements==== */
+div#directorLinks1 {
+	display: none !important;
+}
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color-mode: dark;
