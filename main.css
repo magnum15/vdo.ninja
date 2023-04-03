@@ -33,9 +33,6 @@ div#directorLinks1 {
 	display: none !important;
 }
 
-#mainmenu {
-	display: none !important;
-}
 
 @media (prefers-color-scheme: dark) {
 	:root {
